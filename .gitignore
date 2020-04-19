@@ -1,7 +1,6 @@
 ### Custom ###
 lib
 lib-es
-types
 
 ### Custom (create-react-app) ###
 /.pnp
