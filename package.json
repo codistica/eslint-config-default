@@ -30,16 +30,11 @@
     "main": "./lib/index.js",
     "module": "./lib-es/index.js",
     "directories": {
-        "lib": "./lib",
-        "test": "./lib/__tests__"
+        "lib": "./lib"
     },
     "files": [
-        "dist",
         "lib",
-        "lib-es",
-        "!**/__tests__",
-        "!*.test.*",
-        "./types"
+        "lib-es"
     ],
     "repository": {
         "type": "git",
