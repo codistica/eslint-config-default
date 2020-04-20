@@ -27,14 +27,13 @@
     ],
     "homepage": "https://www.codistica.com",
     "license": "MIT",
-    "main": "./lib/index.js",
-    "module": "./lib-es/index.js",
-    "directories": {
-        "lib": "./lib"
-    },
+    "main": "./base.js",
     "files": [
-        "lib",
-        "lib-es"
+        "base.js",
+        "browser.js",
+        "node-module.js",
+        "node-script.js",
+        "react.js"
     ],
     "repository": {
         "type": "git",
@@ -50,27 +49,13 @@
         "node": ">=10.0.0"
     },
     "scripts": {
-        "babel:lib": "cross-env NODE_ENV=production cross-env NPM_CONFIG_ES_MODULES=false babel ./src --out-dir ./lib --copy-files",
-        "babel:lib-es": "cross-env NODE_ENV=production cross-env NPM_CONFIG_ES_MODULES=true babel ./src --out-dir ./lib-es --copy-files",
-        "build": "yarn run clean && yarn run build:lib && yarn run build:lib-es",
-        "build:lib": "yarn run babel:lib",
-        "build:lib-es": "yarn run babel:lib-es",
-        "clean": "yarn run clean:lib && yarn run clean:lib-es",
-        "clean:lib": "rimraf ./lib",
-        "clean:lib-es": "rimraf ./lib-es",
-        "prepack": "yarn run build",
-        "uninstall": "yarn run clean && rimraf ./node_modules"
+        "uninstall": "rimraf ./node_modules"
     },
     "dependencies": {
         "babel-eslint": "^10.1.0",
         "eslint-config-prettier": "^6.10.1"
     },
     "devDependencies": {
-        "@babel/cli": "^7.8.4",
-        "@babel/core": "^7.9.0",
-        "@babel/preset-env": "^7.9.5",
-        "@comandeer/babel-plugin-banner": "^5.0.0",
-        "cross-env": "^7.0.2",
         "husky": "^4.2.5",
         "rimraf": "^3.0.2"
     },
