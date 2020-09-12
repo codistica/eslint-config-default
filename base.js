@@ -6,7 +6,6 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE.md file in the root directory of this source tree.
  *
- * BUILD DATE: Mon Apr 20 2020 20:42:31 GMT+0200 (Central European Summer Time)
  */
 
 module.exports = {
@@ -23,7 +22,8 @@ module.exports = {
         'plugin:prettier/recommended',
         'plugin:jsdoc/recommended',
         'plugin:import/errors',
-        'plugin:import/warnings'
+        'plugin:import/warnings',
+        'prettier'
     ],
     env: {
         es2017: true,
@@ -93,7 +93,9 @@ module.exports = {
             'warn',
             'always',
             {
-                checkProperties: true
+                tags: {
+                    property: 'always'
+                }
             }
         ],
         'jsdoc/require-param': [

@@ -6,7 +6,6 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE.md file in the root directory of this source tree.
  *
- * BUILD DATE: Mon Apr 20 2020 20:42:31 GMT+0200 (Central European Summer Time)
  */
 
 module.exports = {
@@ -34,13 +33,13 @@ module.exports = {
         'node/no-unsupported-features/es-syntax': [
             'error',
             {
-                version: '>=10.0.0',
+                version: '>=10.0',
             }
         ],
         'node/no-unsupported-features/node-builtins': [
             'error',
             {
-                version: '>=10.0.0'
+                version: '>=10.0'
             }
         ]
     }
