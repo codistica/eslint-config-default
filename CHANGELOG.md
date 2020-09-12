@@ -8,6 +8,12 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 
 ## [Unreleased]
 
+### Added
+- ESLint configurations tests.
+
+### Fixed
+- Multiple ESLint config errors.
+
 ## [1.0.1] - 2020-04-20
 
 ### Fixed
