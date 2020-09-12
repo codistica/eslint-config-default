@@ -8,6 +8,8 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 
 ## [Unreleased]
 
+## [1.1.0] - 2020-09-12
+
 ### Added
 - ESLint configurations tests.
 
@@ -23,5 +25,6 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 See [GitHub release notes](https://github.com/codistica/eslint-config-default/releases?after=v1.0.1)
 for info on changes for earlier releases.
 
-[Unreleased]: https://github.com/codistica/eslint-config-default/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/codistica/eslint-config-default/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/codistica/eslint-config-default/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/codistica/eslint-config-default/compare/v1.0.0...v1.0.1
