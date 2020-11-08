@@ -9,12 +9,14 @@
  */
 
 module.exports = {
-    plugins: ['node'],
-    extends: ['plugin:node/recommended-script'],
     parserOptions: {
-        ecmaVersion: 2015,
-        sourceType: 'script'
+        sourceType: 'script',
+        ecmaVersion: 2015
     },
+    plugins: ['node'],
+    extends: [
+        'plugin:node/recommended-script'
+    ],
     env: {
         es2017: false,
         'shared-node-browser': false,

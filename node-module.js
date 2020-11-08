@@ -10,7 +10,9 @@
 
 module.exports = {
     plugins: ['node'],
-    extends: ['plugin:node/recommended-module'],
+    extends: [
+        'plugin:node/recommended-module'
+    ],
     globals: {
         __dirname: 'readonly',
         __filename: 'readonly',

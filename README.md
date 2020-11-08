@@ -11,6 +11,6 @@
 
 <br/>
 
-# Codistica's default ESLint config.
+# Codistica's default ESLint config
 
 **Work in progress.**
