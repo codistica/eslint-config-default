@@ -8,6 +8,14 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 
 ## [Unreleased]
 
+### Added
+- Configuration presets.
+- Bundled default babel.config.js file.
+
+### Changed
+- Split files into multiple modular configurations.
+- Old babel-eslint parser has been replaced with newer @babel/eslint-parser.
+
 ## [1.1.0] - 2020-09-12
 
 ### Added
