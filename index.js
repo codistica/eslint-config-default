@@ -8,4 +8,7 @@
  *
  */
 
+// TODO: MARK AS ERRORS ONLY SITUATIONS THAT WOULD BREAK RUNTIME.
+// TODO: CHECK OTHER HIGHLIGHTING LEVELS.
+
 module.exports = require('./base-preset');

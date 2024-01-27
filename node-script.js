@@ -10,8 +10,7 @@
 
 module.exports = {
     parserOptions: {
-        sourceType: 'script',
-        ecmaVersion: 2015
+        sourceType: 'script'
     },
     plugins: ['node'],
     extends: [

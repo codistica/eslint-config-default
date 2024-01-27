@@ -58,6 +58,7 @@
     },
     "scripts": {
         "prepack": "yarn run test",
+        "test:merge": "eslint --print-config ./index.js -c ./__tests__/merge/root.js",
         "test": "mocha \"./__tests__/*.test.js\"",
         "uninstall": "rimraf ./node_modules"
     },

@@ -11,6 +11,8 @@
 module.exports = {
     env: {
         'shared-node-browser': false,
-        browser: true
+        mocha: false,
+        browser: true,
+        commonjs: true
     }
 };

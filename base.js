@@ -14,7 +14,6 @@ module.exports = {
     parser: '@babel/eslint-parser',
     parserOptions: {
         sourceType: 'module',
-        ecmaVersion: 2020,
         babelOptions: {
             root: __dirname,
             rootMode: 'upward-optional'
@@ -26,8 +25,8 @@ module.exports = {
     ],
     env: {
         es2017: true,
-        mocha: true,
-        'shared-node-browser': true
+        'shared-node-browser': true,
+        mocha: true
     },
     rules: {
         // ESLINT
